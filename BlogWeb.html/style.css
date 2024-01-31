@@ -1,0 +1,30 @@
+ .container{
+    height: 100vh;
+    background-color: yellow;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-columns: 300px 600px;
+
+    /* Grid-template-area me ka use layout banane me kya jata hai  */
+    /* Yaha double hd means ye do column le raha haai */
+    /* Side main means ke Dusre row me "Side aur main rahega" */
+    /* ft ft means ki theesari row me footer rahega jo do column ka space leg */
+    grid-template-areas: "hd hd" "side main" "ft ft";
+ }
+ .box{
+    background-color: aqua;
+    border: 1px solid black;
+ }
+ #header{
+    grid-area: hd;
+ }
+ #footer{
+    grid-area: ft;
+ }
+ #main{
+    grid-area: main;
+ }
+ #side{
+    grid-area: side;
+ }
