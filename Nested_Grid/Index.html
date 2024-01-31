@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog_Web_Layout</title>
+    <title>Nested_Grid</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="box" id="header">
-            <a href="Post.html" >Click here to move Post Page</a>
-        </div>
+        <div class="box" id="header">BOX 1</div>
         <div class="box" id="side">BOX 2</div>
-        <div class="box" id="main">BOX 3</div>
+        <div class="box" id="main">  <div class="childgrid">
+            <div class="element">A</div>
+            <div class="element">B</div>
+            <div class="element">C</div>
+            <div class="element">D</div>
+        </div></div>
+      
         <div class="box" id="footer">BOX 4</div>
     </div>
   

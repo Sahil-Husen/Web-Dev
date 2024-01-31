@@ -1,0 +1,42 @@
+.container{
+    height: 100vh;
+    background-color: yellow;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-rows: 30px 1fr 30px ;
+    grid-template-columns: 100px 400px;
+    grid-template-areas: "hd hd" "side main" "ft ft";
+    grid-gap: 2px;
+    color: black;
+
+     
+ }
+ .box{
+    background-color: aqua;
+    border: 1px solid black;
+ }
+ #header{
+    grid-area: hd;
+ }
+ #footer{
+    grid-area: ft;
+ }
+ #main{
+    grid-area: main;
+ }
+ #side{
+    grid-area: side;
+ }  
+
+ .childgrid{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 2px;
+ }
+ .element{
+    border: 2px solid green;
+    background-color: hotpink;
+ }

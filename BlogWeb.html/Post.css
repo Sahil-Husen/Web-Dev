@@ -1,0 +1,29 @@
+.container{
+    height: 100vh;
+    background-color: yellow;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-rows: 30px 1fr 1fr 30px ;
+    grid-template-columns: 1fr;
+    grid-template-areas: "hd" "side" "main" "ft";
+    grid-gap: 2px;
+    color: black;
+
+     
+ }
+ .box{
+    background-color: aqua;
+    border: 1px solid black;
+ }
+ #header{
+    grid-area: hd;
+ }
+ #footer{
+    grid-area: ft;
+ }
+ #main{
+    grid-area: main;
+ }
+ #side{
+    grid-area: side;
+ }

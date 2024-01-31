@@ -1,10 +1,20 @@
- .container{
-    height: 100vh;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    height: 700px;
     background-color: yellow;
     border: 1px solid blue;
     display: grid;
     grid-template-rows: 30px 1fr 30px;
-    grid-template-columns: 300px 600px;
+    grid-template-columns: 100px 400px;
+    grid-gap: 4px;
 
     /* Grid-template-area me ka use layout banane me kya jata hai  */
     /* Yaha double hd means ye do column le raha haai */
@@ -31,4 +41,21 @@
  a:link{
    color: blue;
    
+ }
+ /* @media(max-width:400px)
+ {
+    .container{
+        grid-gap: 20px;
+    }
+ } */
+
+ @media(max-width:500px)
+ {
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30px 1fr 1fr 30px;
+        grid-gap: 4px;
+        grid-template-areas: "hd" "side" "main" "ft";
+    }
+    
  }
