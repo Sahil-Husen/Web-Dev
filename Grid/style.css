@@ -1,0 +1,16 @@
+ .container{
+   background-color: red;
+   grid-template-columns: repeat(3, 1fr);
+  
+    
+   
+  
+
+ }
+ .box{
+    
+    border: 1px solid orange;
+    background-color: #fff;
+
+ }
+ 
