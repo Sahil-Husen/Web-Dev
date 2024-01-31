@@ -1,0 +1,53 @@
+.container{
+    height: 700px;
+    width: 600px;
+    border: 1px solid brown;
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px;
+    gap: 10px;
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* align-items:start;
+    align-items: end;
+    align-items: baseline;
+    align-items: stretch; */
+
+    /* align-content: space-around; */
+/* 
+    place-content: center; */
+    /* justify-content: center;
+    justify-items: center; */
+
+
+    place-items:stretch;
+    place-items: end;
+    place-items: start;
+    padding-left: auto;
+     
+    
+}
+.box{
+    background-color: aqua;
+    border: 1px solid black;
+}
+#first{
+    /* alignment of the boxes or childs of the containers */
+
+    /* It align the element to the vertically */
+
+    /* align-self is used to align the child item of the container */
+    /* justify-self: start;
+    justify-self: end;
+    justify-self: center; */
+
+    /* align-self: center; */
+   
+ 
+}

@@ -1,16 +1,39 @@
  .container{
-   background-color: red;
-   grid-template-columns: repeat(3, 1fr);
-  
-    
-   
-  
+   background-color:blueviolet;
+   height: 700px;
+   display: grid;
+   /* grid-template-columns: 400px;
+   grid-template-rows: 30px 150px 400px 30px;
+   grid-template-areas: "hd" "side" "main" "ft"; */
 
+
+   /* grid-template-rows: 30px 500px 30px;
+   grid-template-columns: 200px 400px;
+   grid-template-areas: "hd" "side" "main" "ft"; */
+
+   /* grid-template-columns: 300px 300px 300px;
+   grid-template-rows: 250px 600px;
+   grid-template-areas: "hd hd hd hd hd hd hd hd" "side side side side side side side side" "main main main main main main main main" "ft ft ft ft ft ft ft ft"; */
+    
+
+ 
+    
  }
  .box{
     
-    border: 1px solid orange;
-    background-color: #fff;
-
+    border: 1px solid black;
+    background-color: navy;
+    color: white;
  }
- 
+ /* #header{
+  grid-area: hd;
+ }
+ #side{
+  grid-area: side;
+ }
+ #content{
+  grid-area: main;
+ }
+ #footer{
+  grid-area: ft;
+ } */
