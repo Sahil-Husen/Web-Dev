@@ -1,0 +1,28 @@
+/* *{
+    --text-color:yellow;
+} */
+
+:root{
+    --text-color:yellow;
+}
+
+
+
+.container{
+    background-color:gray;
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+    
+    
+}
+.box{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    border: 1px solid blue;
+    background-color:green;
+    color: var(--text-color);
+     
+     
+}

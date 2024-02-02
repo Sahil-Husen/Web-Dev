@@ -1,0 +1,37 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    border: 2px solid yellow;
+    display:flex;
+    justify-content: center;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 50px;
+    /* transition: 1s; */
+
+/* 
+    transition:all 1s ease-in-out; */
+
+    transition: transform .2s cubic-bezier(1,-0.44, 0.18, 1.68);
+}
+.box:hover{
+    /* background-color: red;
+    /* margin-top: 200px;
+    margin-left: 10px; */
+    /* height:50px;
+    width: 50px; */
+    /* border-radius: 0%; */
+
+    /* This transform property rotate the box 1000Deg */
+
+    /* transform: rotate( 1000deg); 
+    background-color: #fff; */
+    
+   transform: translateX(50px);
+    
+}

@@ -1,0 +1,70 @@
+.container{
+    height: 400px;
+    width: 100vw;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.box{
+    height:100%;
+    width: 100px;
+    background-color:  aqua;
+    border: 1px solid red;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-delay:5s;
+}
+@keyframes  animate {
+    0%{
+        width: 100px;
+        background-color: red;
+    }
+    20%{
+        width: 20%;
+        background-color:  beige;
+    }
+    40%{
+        width: 45%;
+        background-color: blue;
+    }
+    60%{
+        width: 60%;
+        background-color: indigo;
+    }
+    70%{
+        width: 70%;
+        background-color:white;
+    }
+    90%{
+        width: 90%;
+        background-color:orange;
+    }
+    100%{
+        width: 100%;
+        background-color:brown;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @keyframes  animate {
+    from{
+        width:100px;
+
+    }
+    to{
+        width: 100vw;
+    }
+    
+} */
