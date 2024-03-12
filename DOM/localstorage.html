@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>local storage</h1>
+    <input type="text" name="" id="text" placeholder="enter text">
+    <button onclick="saveText()">save</button>
+    <button onclick="deleted()">Delete data</button>
+    <button onclick="clear()">Clear local storage</button>
+    <script>
+        function saveText() {
+            localStorage.setItem('savedText', text.value);
+        }
+        function deleted() {
+            localStorage.removeItem('savedText');
+            text.value = ''; // Clear the input field after removing the item from local storage
+        }
+        text.value = localStorage.getItem('savedText') || '';
+        
+        const save = text.value
+        console.log(save)
+        localStorage.clear();
+    </script>
+</body>
+</html>
