@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>color changing</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script>
+
+        const randomColor = function () {
+            let color = '#'
+            const hex = "0123456789ABCD"
+            for (let i = 0; i < 6; i++) {
+                color += hex[Math.floor(Math.random() * 16)]
+
+            }
+            return color;
+        }
+
+        // code for Starting color changing
+        let interval;
+        function starChangingColor() {
+
+            function changeBg() {
+                document.body.style.backgroundColor = randomColor();
+                console.log('started')
+            }
+            interval = setInterval(changeBg, 1000);
+           
+
+        }
+        document.querySelector('#start').addEventListener('click', starChangingColor)
+
+        //code for stop changing color
+
+        function stopChangingColor() {
+            clearInterval(interval)
+            console.log('stopped')
+        }
+        document.querySelector('#stop').addEventListener('click', stopChangingColor)
+
+
+
+    </script>
+</body>
+
+</html>

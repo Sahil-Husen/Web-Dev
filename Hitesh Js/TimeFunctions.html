@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async and setTimeOut</title>
+</head>
+
+<body>
+    <h1>Hello! dears how are you</h1>
+    <button id="button">Click Me</button>
+    <script>
+        setTimeout(() => {
+            console.log("setTimeout Runned")
+        }, 3000)
+        let heading = document.querySelector('h1')
+        function fun() {
+            heading.innerHTML = "SetTimeOut Runned"
+        }
+       let change= setTimeout(fun, 2000)
+
+       let flag =0; //Here we're let a variable for stop and start the setTimeout()
+        let button = document.getElementById('button')
+        button.addEventListener('click',function(){
+            if(flag ==0){
+                clearTimeout(change)
+                flag = 1;
+            }
+            else{
+                setTimeout(fun,2000)
+                flag = 0
+            }
+        })
+
+
+
+    </script>
+</body>
+
+</html>
