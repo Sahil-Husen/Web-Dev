@@ -1,0 +1,47 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.itemDiv {
+    height: 30%;
+    width: 90%;
+    border: 1px solid #6200ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 2px;
+    border-radius: 10px;
+    background-color:magenta;
+    color: white;
+    
+
+}
+
+.itemMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+  
+}
+.datediv{
+    border: 2px solid blue;
+    border-radius: 5px;
+    height: 79px;
+    width: 100px;
+   
+}
+button{
+    height: 50%;
+    margin-top: 35px;
+    background-color: rgb(45, 33, 184);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+
+}
