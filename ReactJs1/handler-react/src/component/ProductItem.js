@@ -1,3 +1,5 @@
+
+import React,{useState} from 'react'
 import ProductHeading from "./ProductHeading";
 import Date from "./Date";
 import './ProductItem.css'
@@ -6,18 +8,13 @@ import './ProductItem.css'
 function ProductItem(props) {
 
     
+    const[title,setTitle] = useState(props.title)
     function clickHandler (){
-
-       
-        console.log("Clicked")
+         setTitle("popcorn")
+     console.log("Clicked")
      }
     return (
 
-         function clickHandler (){
-
-    let title = "popcorn";
-    console.log("Clicked")
- }
         <>
 
             <div className="itemMain">
@@ -28,7 +25,7 @@ function ProductItem(props) {
 
                     <div>
 
-                        <ProductHeading title={props.title}></ProductHeading>
+                        <ProductHeading title={title}></ProductHeading>
                     </div>
 
                     <button onClick={clickHandler} >Add to cart</button>

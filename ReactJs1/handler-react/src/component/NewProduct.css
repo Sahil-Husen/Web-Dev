@@ -1,0 +1,35 @@
+.productMain{
+    height: 200px;
+    width: 400px;
+    background-color: seagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2px; */
+    margin: 0 auto;
+    
+    padding: 2px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+
+}
+.new-product-control{
+    margin: 5px;
+}
+.new-product-button{
+height: 50px;
+width: 90px;
+background-color: skyblue;
+color: darkblue;
+
+}
+label{
+    font-size: 20px;
+}
+input{
+    height:35px ;
+    text-transform: uppercase;
+    
+}

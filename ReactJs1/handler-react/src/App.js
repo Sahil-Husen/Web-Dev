@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
+import NewProduct from './component/NewProduct';
 import Products from './component/Products'
+ 
 
 
 const products = [
@@ -33,10 +35,19 @@ const products = [
   },
 ];
 
+//  Child to parent accessing
+function Ahadler(data){
+  console.log("I am inside Ahandler")
+  console.log(data)
+}
+
 function App() {
   return (
     <div className="App">
-      <Products item={products}></Products>
+      {/* here onA={Ahandler} is used to DEMONSTRATE THE CHILD TO PARENT OBJECT ACCESSING */}
+      <NewProduct onA={Ahadler}></NewProduct>
+      
+      <Products item={products} ></Products>
     </div>
   );
 }
