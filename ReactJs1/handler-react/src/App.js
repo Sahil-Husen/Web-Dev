@@ -37,7 +37,7 @@ const products = [
 
 //  Child to parent accessing
 function Ahadler(data){
-  console.log("I am inside Ahandler")
+  console.log("I am inside Ahandler afds")
   console.log(data)
 }
 
@@ -46,7 +46,7 @@ function App() {
     <div className="App">
       {/* here onA={Ahandler} is used to DEMONSTRATE THE CHILD TO PARENT OBJECT ACCESSING */}
       <NewProduct onA={Ahadler}></NewProduct>
-      
+   
       <Products item={products} ></Products>
     </div>
   );
