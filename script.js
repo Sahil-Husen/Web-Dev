@@ -1,4 +1,4 @@
-
+ 
 // Preloader 
 document.addEventListener("DOMContentLoaded", function() {
     // Set the duration (in milliseconds)
@@ -16,3 +16,22 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }, loadingDuration);
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+    scrollToTopBtn.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+
+    scrollToTopBtn.addEventListener('dblclick', function () {
+      window.scrollTo({
+        top: document.body.scrollHeight, // Scroll to the bottom of the page
+        behavior: "smooth"
+      });
+    });
+  });
