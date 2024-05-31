@@ -6,7 +6,6 @@ html,
 body {
     width: 100%;
     height: 100%;
-
 }
 
 #main {
@@ -563,6 +562,8 @@ a:hover span:nth-child(6) {
     font-weight: lighter;
     font-size: 42.5px;
     color: white;
+    font-family: "Inter";
+    font-weight: 400;
 
 }
 
@@ -571,18 +572,14 @@ a:hover span:nth-child(6) {
     font-size: 17px;
     color: #c6bdbd;
     letter-spacing: 1px;
+
 }
 
-.contents p:hover {
-    /* color:rgb(98, 67, 67); */
-    letter-spacing: 1.8px;
-    transition: 0.8s ease-in-out;
-}
 
 .contents button {
     cursor: pointer;
     /* user-select: none; */
-    margin-left: 20px;
+    margin-left: 10px;
     width: 40%;
     padding: 12.5px 30px;
     border: 1px solid white;
@@ -707,6 +704,8 @@ a:hover span:nth-child(6) {
     font-size: 24px;
     margin: 20px 0;
     color: white;
+    font-family: "Inter";
+    font-weight: 400;
     margin-left: 20px;
 }
 
@@ -790,20 +789,22 @@ a:hover span:nth-child(6) {
 }
 
 .page5-contents p {
-    color: #c6bdbd;
+    color: #fafafa;
     /* overflow: auto; */
     margin: 10px 0px;
-    font-size: 17px;
+    margin-left: 5px;
+    font-variant: small-caps;
+    font-size: 14.5px;
 }
 
-.page5-contents p:hover {
+/* .page5-contents p:hover {
     letter-spacing: 1px;
     transition: 1s ease-in-out;
-}
+} */
 
 .page5-contents button {
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 10px;
     width: 40%;
     padding: 12.5px 30px;
     border: 1px solid white;
@@ -899,7 +900,7 @@ a:hover span:nth-child(6) {
 
 .content-six p {
     font-family: sans-serif;
-    color: #afd0e0;
+    color: #fafafa;
     margin: 10px 0px;
     font-size: 14px;
     margin-left: 10px;
@@ -1014,7 +1015,7 @@ a:hover span:nth-child(6) {
 
 .content-seven p {
     font-family: sans-serif;
-    color: #afd0e0;
+    color: #fafafa;
     margin: 20px 0px;
     font-size: 14px;
     /* Optional */
@@ -1024,7 +1025,7 @@ a:hover span:nth-child(6) {
 }
 
 .content-seven p:hover {
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
 }
 
 .content-seven button {
@@ -1197,9 +1198,8 @@ a:hover span:nth-child(6) {
     margin-left: -18px;
     list-style: none;
     font-family: "Inter";
-
-
 }
+
 
 .footer-content li {
     font-size: 15px;
@@ -1226,14 +1226,15 @@ a:hover span:nth-child(6) {
 }
 
 .footer-content input {
-    background-color: black;
+    /* background-color: black; */
     height: 30px;
     /* width: 100%; */
-    color: white;
-    border-radius: 5px;
-    border: 1px solid white;
+    color: black;
+    border-radius: 2px;
+    border:dotted;
     margin: 2px;
     width: 60%;
+    font-size: 18px;
 }
 
 .footer-content button {
@@ -1242,7 +1243,7 @@ a:hover span:nth-child(6) {
     /* padding: 12.5px 30px; */
     padding: 5px 10px;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #141516;
     color: #ffffff;
     font-weight: Bold;
@@ -1304,3 +1305,6 @@ a:hover span:nth-child(6) {
     background-color: white;
 
 }
+
+/* Footer Ended */
+/* progress bar */

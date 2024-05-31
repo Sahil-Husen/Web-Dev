@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Space Research Organisation</title>
+    <title>Indian Space Research Organization</title>
     <link rel="shortcut icon" href="./Images/isro-nav-img.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -220,7 +220,7 @@
         <!-- Page7 Starting......../ -->
         <div class="page7">
             <div class="content-seven">
-                <h1>Educational Resources.</h1>
+                <h1 id="educational-resc">Educational Resources.</h1>
                 <p>Access Educational materials, videos, and interactive tools to learn more about Space Science,
                     Satellite Technology and ISRO's contribution to Space Exploration.</p>
                 <button>View More</button>
@@ -236,7 +236,7 @@
                 <img src="./Images/page8-img.png" alt="">
             </div>
             <div class="content-seven">
-                <h1>Career Opportunities.</h1>
+                <h1 id="career-op">Career Opportunities.</h1>
                 <p>Join out team of Scientists, engineers, and professionals dedicated to pushing the boundaries of
                     Space Exploration.Explore career opportunities and internship programs at ISRO.
                 </p>
@@ -280,7 +280,7 @@
                             <li>Values</li>
                             <li>Privacy Legal</li>
                             <li>News</li>
-                            <input type="email" name="" id="" placeholder="Enter the E-mail........." formnovalidate>
+                            <input type="email" name="" id="" placeholder="E-mail Address" formnovalidate>
                             <button>Subscribe</button>
                         </ul>
                     </div>
@@ -322,11 +322,10 @@
 
             </div>
             <div class="footer-copyright">
-                Copyright&copy;2024 ISRO.GOV.IN
-                <button id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+                Copyright&copy; <span>2024 ISRO.GOV.IN</span>
+                <button id="scrollToTopBtn"><i class="fa-sharp fa-solid fa-caret-up"></i></button>
             </div>
         </div>
-
         <!-- Footer End -->
 
         <!-- Ending...... This the code written by Husen  -->
@@ -344,7 +343,13 @@
     </div>
     <!-- Loading page end -->
     <script src="script.js"></script>
+ ( 
+      
+
 </body>
+
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
     integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -402,6 +407,53 @@
     document.addEventListener("DOMContentLoaded", function () {
         const text = "Meet Our Staller Team.";
         const typingElement = document.getElementById("page6-h1");
+        let index = 0;
+        function type() {
+            if (index < text.length) {
+                typingElement.innerHTML += text.charAt(index);
+                index++;
+                setTimeout(type, 90); // Adjust the speed by changing the timeout value
+            } else {
+                // Wait for a moment before restarting the typing effect
+                setTimeout(() => {
+                    typingElement.innerHTML = ''; // Clear the current text
+                    index = 0; // Reset the index
+                    type(); // Restart the typing effect
+                }, 1100); // Adjust the delay before restarting (2000ms = 2s)
+            }
+        }
+        type();
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const text = "Educational Resources.";
+        const typingElement = document.getElementById("educational-resc");
+        let index = 0;
+        function type() {
+            if (index < text.length) {
+                typingElement.innerHTML += text.charAt(index);
+                index++;
+                setTimeout(type, 90); // Adjust the speed by changing the timeout value
+            } else {
+                // Wait for a moment before restarting the typing effect
+                setTimeout(() => {
+                    typingElement.innerHTML = ''; // Clear the current text
+                    index = 0; // Reset the index
+                    type(); // Restart the typing effect
+                }, 1100); // Adjust the delay before restarting (2000ms = 2s)
+            }
+        }
+        type();
+    });
+</script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const text = "Career Opportunity.";
+        const typingElement = document.getElementById("career-op");
         let index = 0;
         function type() {
             if (index < text.length) {
