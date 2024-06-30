@@ -2,7 +2,7 @@
 # Web-Project
  Hey there, I'm a Frontend Engineer. | ![](https://komarev.com/ghpvc/?username=RazaALi0786&label=Profile%20views&color=0e75b6&style=flat) 
 
-# Currently pursuing Bachelors in Computer Science from Integral University, Lucknow, India
+# Currently pursuing Bachelors in Computer Science & IT from Khwaja Moinuddin Chishti Language University, Lucknow, India
 
 <img align="right" alt="GIF" src="https://c.tenor.com/2uyENRmiUt0AAAAC/coding.gif" width="385" height="290" />
 
@@ -12,18 +12,18 @@
 
 - 💬 Ask me about **Web Development, etc.**
 
-- 📫 You can reach me at **razaaliwork26296@gmail.com**
+- 📫 You can reach me at **sahilhussainsahil76@gmail.com**
 
 - ⚡ Fun fact **I love playing games and going to gym because it helps me clear my mind.**
 
-- 📝 [Resume](https://drive.google.com/file/d/1_eCAhFAf1YUuXisLdgyIPgN4R1mDwZZV/view?usp=drive_link)
+- 📝 [Resume]([https://drive.google.com/file/d/1_eCAhFAf1YUuXisLdgyIPgN4R1mDwZZV/view?usp=drive_link](https://drive.google.com/file/d/1lq870NVzgH1MWKau_S9cG-xs3pzInzXO/view?usp=drive_link))
 
 ## :email: Find me on:
 
 <p align="left">
-<a href="https://www.linkedin.com/in/syed-raza-ali-363625222/" target="_blank"> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="RazaALi0786" height="25" width="25" /></a>
+<a href="(https://www.linkedin.com/in/sahil-hussain-5a5488254/)" target="_blank"> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt"sahilhussain" height="25" width="25" /></a>
 <p align="left">
-<a href="https://twitter.com/Raza_a_lee" target="_blank"> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="RazaALi0786" height="25" width="25" /></a>
+<!-- <a href="https://twitter.com/Raza_a_lee" target="_blank"> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="RazaALi0786" height="25" width="25" /></a> -->
 
 </p>
 
